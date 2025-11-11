@@ -10,7 +10,7 @@ public class EnemyPatrol : MonoBehaviour
     
     public bool isRightDirection;
 
-    public float speed;
+    public float speed = 3;
 
     private void Update()
     {
